@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #2b50c7;
+}
+
+.navbar-nav {
+  margin-left: 30%;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.nav-item {
+  cursor: pointer;
+  margin: 0px 15px;
+  font-size: 1.2rem;
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.classImg {
+  width: 50%;
+}
+
+.classText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding-top: 6rem;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.container img {
+  width: 110%;
+}
+
+.container h1,
+.container button,
+.container p {
+  margin-top: 2%;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+
+.container h1 span {
+  color: #2b50c7;
+}
+
+.container a {
+  font-size: 1.3125rem;
+}
+
+.container p {
+  color: #869ab8;
+  font-size: 1.3125rem;
+}
+
+/* ****************************************************************ABOUT ME*************************************** */
+
+.whoIAm {
+  width: 100%;
+  height: 50vh;
+  min-height: 430px;
+  background: linear-gradient(180deg, #f9fbfd 0, #fff);
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whoIAmContainer {
+  width: 40%;
+  min-width: 650px;
+  height: 90%;
+  display: flex;
+}
+
+.imagewhoIAm {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textwhoIAm {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textwhoIAm h2 {
+  font-size: 3rem;
+  color: #000;
+}
+
+.textwhoIAm p,
+.textwhoIAm button,
+.textwhoIAm h2 {
+  padding-bottom: 20px;
+}
+
+.textwhoIAm p {
+  color: #869ab8;
+  line-height: 32px;
+  font-style: italic;
+}
+
+.textwhoIAm button {
+  font-size: 1.1rem;
+  background-color: #2b50c7;
+  padding: 10px 20px;
+  width: 160px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+}
+
+.textwhoIAm button:hover {
+  border: 1px solid #2b50c7;
+  background-color: #fff;
+  color: #2b50c7;
+}
+
+.whoIAmContainer img {
+  height: 90%;
+}
+
+/* *****************************************************SKILLS*************************************** */
+
+.Skills {
+  width: 100%;
+  height: 40vh;
+  min-height: 430px;
+  background: linear-gradient(180deg, #fff 0, #f9fbfd);
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerSkills {
+  width: 1000px;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocSkills {
+  width: 48%;
+  height: 100%;
+}
+
+.blocSkills h3 {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.blocSkills:nth-child(1) h3 {
+  color: #2b50c7;
+}
+
+.blocSkills h3 img {
+  width: 35px;
+}
+
+.blocSkills:nth-child(2) h3 img {
+  width: 43px !important ;
+}
+
+.intSkills {
+  display: flex;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.barSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nameSkills {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.nameSkills span {
+  margin: 15px 0;
+}
+
+.bar {
+  width: 200px;
+  height: 17px;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+
+.barSkills .bar:nth-child(1) .progress {
+  width: 90%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+
+.barSkills .bar:nth-child(2) .progress {
+  width: 75%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+.barSkills .bar:nth-child(3) .progress {
+  width: 80%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+
+.barSkills .bar:nth-child(4) .progress {
+  width: 90%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+.blocSkills:nth-child(2) .barSkills .bar:nth-child(1) .progress {
+  width: 85%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+.blocSkills:nth-child(2) .barSkills .bar:nth-child(2) .progress {
+  width: 100%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+.blocSkills:nth-child(2) .barSkills .bar:nth-child(3) .progress {
+  width: 90%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+.blocSkills:nth-child(2) .barSkills .bar:nth-child(4) .progress {
+  width: 98%;
+  height: 100%;
+  background-color: #2b50c7;
+  border-radius: 20px;
+  border: 1px solid #2b50c7;
+}
+
+/* ********************************************************************CAROUSEL*************************************************************************/
+.Experience {
+  background: linear-gradient(180deg, #f9fbfd 0, #fff);
+  padding: 20px 0px;
+  text-align: center;
+}
+.carousel {
+  height: 450px;
+}
+
+.Experience h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #2b50c7;
+  text-decoration: underline;
+  margin: 3% 0;
+}
+.carousel-item img {
+  width: 35%;
+  margin: auto;
+  min-width: 600px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #000;
+  border-radius: 50px;
+}
+
+/* ********************************************************************************FOOTER******************************************************* */
+
+footer {
+  background-color: #2b50c7;
+  width: 100%;
+  height: 50vh;
+  min-height: 300px;
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer .premiereList{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .deuxiemeList{
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  text-decoration: none;
+}
+footer a :visited, footer a, footer div{
+  color: #fff;
+  margin: 10px 30px;
+}
+
+footer .logo{
+  font-size: 3rem;
+}
+
+footer a{
+  font-size: 1.3rem;
+}
+
+.deuxiemeList .reseau i{
+  margin-left: -30px;
+}
+
+
+
+/* *****************************************************************************RESPONSIVE********************************************** */
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-left: initial;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .container h1 {
+    width: 110%;
+  }
+}
+@media (max-width: 1000px) {
+  .classText {
+    width: 50%;
+  }
+  .container h1,
+  .textwhoIAm h2,
+  .Experience h1 {
+    font-size: 2.25rem;
+  }
+  .container p {
+    font-size: 1.1875rem;
+  }
+  .Skills {
+    height: 100vh;
+    min-height: 850px;
+    background: linear-gradient(180deg, #f9fbfd 0, #fff);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerSkills {
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+  }
+  .blocSkills {
+    margin: auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 835px) {
+  .carousel-item img {
+    width: 35%;
+    min-width: 450px;
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 775px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1.5rem;
+    overflow: hidden;
+  }
+
+  .classText,
+  .classImg {
+    width: 90%;
+    margin: auto;
+  }
+  .classText {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .whoIAm {
+    width: 100%;
+    height: auto;
+    min-height: 430px;
+    background-color: #2b50c7;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whoIAmContainer {
+    width: 100%;
+    min-width: initial;
+    flex-direction: column;
+    text-align: center;
+  }
+  .whoIAmContainer img {
+    height: 400px;
+  }
+
+  .imagewhoIAm {
+    margin: 30px auto;
+  }
+
+  .textwhoIAm {
+    width: 95%;
+  }
+
+  .textwhoIAm,
+  .textwhoIAm button {
+    margin: auto;
+  }
+
+  .textwhoIAm button {
+    margin-bottom: 30px;
+  }
+
+  .textwhoIAm p {
+    width: 85%;
+    margin: auto;
+  }
+  footer {
+    height: auto;
+    min-height: initial;
+    flex-direction: column;
+    align-items: initial;
+    
+  }
+
+}
+
+@media (max-width: 515px) {
+  .blocSkills {
+    margin: auto;
+    width: 100%;
+  }
+  .intSkills {
+    margin: 30px 10%;
+  }
+
+  .bar {
+    width: 150px;
+    height: 17px;
+    border-radius: 20px;
+    border: 1px solid #2b50c7;
+  }
+}
+
+@media (max-width: 430px) {
+  .carousel-item img {
+    min-width: 320px;
+  }
+}
+
+
